@@ -5,9 +5,9 @@ DISCLAIMER - I am not affiliated with the Wabbajack group in any way, just a gam
 
 ### Introduction
 
-Accreditation to Wabbajack Discord users Chippy and Happy4510 for the groundwork on getting this running. While this guide will get Wabbajack installed and running under Linux, it is far from a straight forward process and even by the end, stability is not the best. For this reason, I would still recommend running Wabbajack in a Windows environment and copying the list over to your Linux/SteamDeck once complete. You can follow my other guide to get a modlist up and running that way - [Skyrim + Wabbajack Modlist + Linux / SteamDeck](https://github.com/Omni-guides/Skyrim-Wabbajack_Modlist-Linux)
+Accreditation to several Wabbajack Discord users, together we managed to get this running, with some caveats. While this guide will get Wabbajack installed and running under Linux, it is far from a straight forward process and even by the end, stability is not the best. For this reason, I would still recommend running Wabbajack in a Windows environment and copying the list over to your Linux/SteamDeck once complete. You can follow my other guide to get a modlist up and running that way - [Wabbajack Modlist + Linux / SteamDeck](https://github.com/Omni-guides/Wabbajack-Modlist-Linux). Due to an additional requirement of Edge WebView2 that I cannot yet get working under Linux, the below steps will **only work with Wabbajack versions up to 2.5.3.28**. Versions above this, the Nexusmods login pages will not appear correctly inside Wabbajack.
 
-However, if you want to go ahead, then following the below steps should allow you to run Wabbajack directly on Linux, stable or not.
+If you really want to go ahead in spite of the above, then following the below steps should allow you to run Wabbajack directly on Linux, stable or not. 
 
 The below steps were run on SteamDeck, but they will be the same or similar on other Linux OS distros. I'm using Bottles to create and manage the Wine environment that will be used to run Wabbajack, but there are plenty of other options. I just had most luck with Bottles for avoiding things like black-window and flickering once Wabbajack is running, and also things like the Steam 2FA just never appearing.
 
@@ -106,7 +106,7 @@ mkdir -p /home/deck/Games/Wabbajack/2.5.3.28
 
 Or on SDCard
 ```
-mkdir -p /run/media/mmcblk0p1/Games/Wabbajack/2.53.28
+mkdir -p /run/media/mmcblk0p1/Games/Wabbajack/2.5.3.28
 ```
 
 Then unzip our downloaded Wabbajack zip file
@@ -151,11 +151,11 @@ Then when you are selecting the install location inside Wabbajack, you can brows
 
 Do the same for a downloads location, or just accept the default that Wabbajack provides for you.
 
-In my experience, Wabbajack may crash, fairly often, and you'll have to restart the application as above, and select the 'Install from disk' option, to re-start the download and install. I had to babysit the download quite a bit during testing, which is why, even after all of this, I still prefer to run Wabbajack in a Windows VM (or another Windows system) and then copy the list over. That way you can just kick it off and leave it to run.
+In my experience, Wabbajack may crash, fairly often, and you'll have to restart the application as above, and select the 'Install from disk' option to re-start the download and install. I had to babysit the download quite a bit during testing, which is why even after all of this, I still prefer to run Wabbajack in a Windows VM (or another Windows system) and then copy the list over. That way you can just kick it off and leave it to run.
 
 ---
 
 Conclusion
 
-One way, or another, when you get the modlist downloaded, you can move on to actually getting the modlist running so you can play the game. The steps to do so are outlined in my other guide - [Skyrim + Wabbajack Modlist + Linux / SteamDeck](https://github.com/Omni-guides/Skyrim-Wabbajack_Modlist-Linux). As mentioned at the top of the guide, please do drop by the #unofficial-linux-help channel of the main [Wabbajack Discord](https://discord.gg/wabbajack) if you spot an issue with the guide, something doesn't work right for you, you have a suggestion, or even if you just want a chat :)
+One way or another, when you get the modlist downloaded, you can move on to actually getting the modlist running so you can play the game. The steps to do so are outlined in my other guide - [Wabbajack Modlist + Linux / SteamDeck](https://github.com/Omni-guides/Wabbajack-Modlist-Linux). As mentioned at the top of the guide, please do drop by the #unofficial-linux-help channel of the main [Wabbajack Discord](https://discord.gg/wabbajack) if you spot an issue with the guide, something doesn't work right for you, you have a suggestion, or even if you just want a chat :)
 
