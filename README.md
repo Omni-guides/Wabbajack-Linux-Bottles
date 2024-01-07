@@ -1,3 +1,6 @@
+# :no_entry: [DEPRECATED] No longer an option. Please see alternative methods at https://github.com/Omni-guides/Wabbajack-Modlist-Linux . Leaving this in case it inspires someone to success in future.
+
+
 # Wabbajack-Linux-Bottles
 A guide to running Wabbajack on Linux / SteamDeck.
 
