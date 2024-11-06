@@ -1,4 +1,4 @@
-# :no_entry: [DEPRECATED] No longer an option. Please see alternative methods at https://github.com/Omni-guides/Wabbajack-Modlist-Linux . Leaving this in case it inspires someone to success in future.
+# :no_entry: [DEPRECATED] This method no longer works. Please see the new method [here](https://github.com/Omni-guides/Wabbajack-Modlist-Linux/wiki/Wabbajack-on-Steam-Deck-Linux-via-Bottles)!
 
 
 # Wabbajack-Linux-Bottles
